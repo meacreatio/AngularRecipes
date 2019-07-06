@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./bind-class-to-html.component.css']
 })
 export class BindClassToHTMLComponent implements OnInit {
-  public stringValue: string
+  public stringValue: string;
   constructor() {
     this.stringValue = "hello world";
   }
